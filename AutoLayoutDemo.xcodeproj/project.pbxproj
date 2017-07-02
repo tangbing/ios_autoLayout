@@ -28,6 +28,12 @@
 		33870B211F08F5E600762A42 /* AutoLayoutTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33870B1F1F08F5E600762A42 /* AutoLayoutTableView.xib */; };
 		33870B2A1F08FC4A00762A42 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33870B281F08FC4A00762A42 /* CustomCell.m */; };
 		33870B2B1F08FC4A00762A42 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33870B291F08FC4A00762A42 /* CustomCell.xib */; };
+		33A0E71C1F093E52008A94E6 /* AutoLayoutChangeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A0E71A1F093E52008A94E6 /* AutoLayoutChangeTableView.m */; };
+		33A0E71D1F093E52008A94E6 /* AutoLayoutChangeTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33A0E71B1F093E52008A94E6 /* AutoLayoutChangeTableView.xib */; };
+		33A0E7211F093E78008A94E6 /* CustomCmtCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33A0E71E1F093E78008A94E6 /* CustomCmtCell.xib */; };
+		33A0E7221F093E78008A94E6 /* CustomCmtCell..m in Sources */ = {isa = PBXBuildFile; fileRef = 33A0E71F1F093E78008A94E6 /* CustomCmtCell..m */; };
+		33A0E7251F09441C008A94E6 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A0E7241F09441C008A94E6 /* UserModel.m */; };
+		33A0E7281F094FB9008A94E6 /* cmtModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A0E7271F094FB9008A94E6 /* cmtModel.m */; };
 		8452F9E2E812045DA0B72870 /* libPods-AutoLayoutDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F02C8F8F15E56DFE809A3469 /* libPods-AutoLayoutDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +90,16 @@
 		33870B271F08FC4A00762A42 /* CustomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
 		33870B281F08FC4A00762A42 /* CustomCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 		33870B291F08FC4A00762A42 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		33A0E7191F093E52008A94E6 /* AutoLayoutChangeTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoLayoutChangeTableView.h; sourceTree = "<group>"; };
+		33A0E71A1F093E52008A94E6 /* AutoLayoutChangeTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutChangeTableView.m; sourceTree = "<group>"; };
+		33A0E71B1F093E52008A94E6 /* AutoLayoutChangeTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AutoLayoutChangeTableView.xib; sourceTree = "<group>"; };
+		33A0E71E1F093E78008A94E6 /* CustomCmtCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomCmtCell.xib; path = ../../../../../../Desktop/CustomCmtCell.xib; sourceTree = "<group>"; };
+		33A0E71F1F093E78008A94E6 /* CustomCmtCell..m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomCmtCell..m; path = ../../../../../../Desktop/CustomCmtCell..m; sourceTree = "<group>"; };
+		33A0E7201F093E78008A94E6 /* CustomCmtCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomCmtCell.h; path = ../../../../../../Desktop/CustomCmtCell.h; sourceTree = "<group>"; };
+		33A0E7231F09441C008A94E6 /* UserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		33A0E7241F09441C008A94E6 /* UserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		33A0E7261F094FB9008A94E6 /* cmtModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cmtModel.h; sourceTree = "<group>"; };
+		33A0E7271F094FB9008A94E6 /* cmtModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cmtModel.m; sourceTree = "<group>"; };
 		684216D44DABE8AEEA2D1C7E /* Pods-AutoLayoutDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayoutDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayoutDemo/Pods-AutoLayoutDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		8F375BB7AD08053DF8871A6A /* Pods-AutoLayoutDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayoutDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayoutDemo/Pods-AutoLayoutDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F02C8F8F15E56DFE809A3469 /* libPods-AutoLayoutDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoLayoutDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -181,6 +197,7 @@
 		04A71DFA1F0636F100579614 /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				33A0E7181F093E29008A94E6 /* AutoLayoutChangeTableview */,
 				33870B1C1F08F5A900762A42 /* AutoLayoutTableview */,
 				04A71E221F06491300579614 /* AutoLayoutChangeView */,
 				04A71E1C1F06427200579614 /* AutoLayoutView */,
@@ -254,6 +271,23 @@
 				33870B291F08FC4A00762A42 /* CustomCell.xib */,
 			);
 			path = AutoLayoutTableview;
+			sourceTree = "<group>";
+		};
+		33A0E7181F093E29008A94E6 /* AutoLayoutChangeTableview */ = {
+			isa = PBXGroup;
+			children = (
+				33A0E7201F093E78008A94E6 /* CustomCmtCell.h */,
+				33A0E71F1F093E78008A94E6 /* CustomCmtCell..m */,
+				33A0E71E1F093E78008A94E6 /* CustomCmtCell.xib */,
+				33A0E7191F093E52008A94E6 /* AutoLayoutChangeTableView.h */,
+				33A0E71A1F093E52008A94E6 /* AutoLayoutChangeTableView.m */,
+				33A0E71B1F093E52008A94E6 /* AutoLayoutChangeTableView.xib */,
+				33A0E7231F09441C008A94E6 /* UserModel.h */,
+				33A0E7241F09441C008A94E6 /* UserModel.m */,
+				33A0E7261F094FB9008A94E6 /* cmtModel.h */,
+				33A0E7271F094FB9008A94E6 /* cmtModel.m */,
+			);
+			path = AutoLayoutChangeTableview;
 			sourceTree = "<group>";
 		};
 		6838F1D5DF744D971AD3F6D0 /* Frameworks */ = {
@@ -382,6 +416,8 @@
 				04A71E0E1F0638BD00579614 /* Me.storyboard in Resources */,
 				04A71E271F06492E00579614 /* AutoLayoutChangeViewController.xib in Resources */,
 				04A71DD21F0635F600579614 /* Main.storyboard in Resources */,
+				33A0E7211F093E78008A94E6 /* CustomCmtCell.xib in Resources */,
+				33A0E71D1F093E52008A94E6 /* AutoLayoutChangeTableView.xib in Resources */,
 				04A71E211F06427200579614 /* AutoLayoutView.xib in Resources */,
 				04A71E0C1F0638A400579614 /* AutoLayout.storyboard in Resources */,
 				33870B211F08F5E600762A42 /* AutoLayoutTableView.xib in Resources */,
@@ -418,7 +454,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		52F8617D16014487BB2C6582 /* [CP] Copy Pods Resources */ = {
@@ -458,8 +494,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A0E71C1F093E52008A94E6 /* AutoLayoutChangeTableView.m in Sources */,
 				04A71E1A1F0640D100579614 /* MeViewController.m in Sources */,
+				33A0E7251F09441C008A94E6 /* UserModel.m in Sources */,
+				33A0E7221F093E78008A94E6 /* CustomCmtCell..m in Sources */,
 				04A71E091F06378400579614 /* AutoLayoutTableViewController.m in Sources */,
+				33A0E7281F094FB9008A94E6 /* cmtModel.m in Sources */,
 				33870B201F08F5E600762A42 /* AutoLayoutTableView.m in Sources */,
 				04A71DCC1F0635F600579614 /* AppDelegate.m in Sources */,
 				04A71E201F06427200579614 /* AutoLayoutView.m in Sources */,
