@@ -24,6 +24,10 @@
 		04A71E211F06427200579614 /* AutoLayoutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A71E1F1F06427200579614 /* AutoLayoutView.xib */; };
 		04A71E261F06492E00579614 /* AutoLayoutChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A71E241F06492E00579614 /* AutoLayoutChangeViewController.m */; };
 		04A71E271F06492E00579614 /* AutoLayoutChangeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A71E251F06492E00579614 /* AutoLayoutChangeViewController.xib */; };
+		33870B201F08F5E600762A42 /* AutoLayoutTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33870B1E1F08F5E600762A42 /* AutoLayoutTableView.m */; };
+		33870B211F08F5E600762A42 /* AutoLayoutTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33870B1F1F08F5E600762A42 /* AutoLayoutTableView.xib */; };
+		33870B2A1F08FC4A00762A42 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33870B281F08FC4A00762A42 /* CustomCell.m */; };
+		33870B2B1F08FC4A00762A42 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33870B291F08FC4A00762A42 /* CustomCell.xib */; };
 		8452F9E2E812045DA0B72870 /* libPods-AutoLayoutDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F02C8F8F15E56DFE809A3469 /* libPods-AutoLayoutDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +78,12 @@
 		04A71E231F06492E00579614 /* AutoLayoutChangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutChangeViewController.h; sourceTree = "<group>"; };
 		04A71E241F06492E00579614 /* AutoLayoutChangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutChangeViewController.m; sourceTree = "<group>"; };
 		04A71E251F06492E00579614 /* AutoLayoutChangeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutoLayoutChangeViewController.xib; sourceTree = "<group>"; };
+		33870B1D1F08F5E600762A42 /* AutoLayoutTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoLayoutTableView.h; sourceTree = "<group>"; };
+		33870B1E1F08F5E600762A42 /* AutoLayoutTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutTableView.m; sourceTree = "<group>"; };
+		33870B1F1F08F5E600762A42 /* AutoLayoutTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AutoLayoutTableView.xib; sourceTree = "<group>"; };
+		33870B271F08FC4A00762A42 /* CustomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		33870B281F08FC4A00762A42 /* CustomCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		33870B291F08FC4A00762A42 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 		684216D44DABE8AEEA2D1C7E /* Pods-AutoLayoutDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayoutDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayoutDemo/Pods-AutoLayoutDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		8F375BB7AD08053DF8871A6A /* Pods-AutoLayoutDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayoutDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayoutDemo/Pods-AutoLayoutDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F02C8F8F15E56DFE809A3469 /* libPods-AutoLayoutDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoLayoutDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -171,6 +181,7 @@
 		04A71DFA1F0636F100579614 /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				33870B1C1F08F5A900762A42 /* AutoLayoutTableview */,
 				04A71E221F06491300579614 /* AutoLayoutChangeView */,
 				04A71E1C1F06427200579614 /* AutoLayoutView */,
 				04A71E031F06378400579614 /* AutoLayoutViewController */,
@@ -230,6 +241,19 @@
 				8F375BB7AD08053DF8871A6A /* Pods-AutoLayoutDemo.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		33870B1C1F08F5A900762A42 /* AutoLayoutTableview */ = {
+			isa = PBXGroup;
+			children = (
+				33870B1D1F08F5E600762A42 /* AutoLayoutTableView.h */,
+				33870B1E1F08F5E600762A42 /* AutoLayoutTableView.m */,
+				33870B1F1F08F5E600762A42 /* AutoLayoutTableView.xib */,
+				33870B271F08FC4A00762A42 /* CustomCell.h */,
+				33870B281F08FC4A00762A42 /* CustomCell.m */,
+				33870B291F08FC4A00762A42 /* CustomCell.xib */,
+			);
+			path = AutoLayoutTableview;
 			sourceTree = "<group>";
 		};
 		6838F1D5DF744D971AD3F6D0 /* Frameworks */ = {
@@ -352,6 +376,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33870B2B1F08FC4A00762A42 /* CustomCell.xib in Resources */,
 				04A71DD71F0635F600579614 /* LaunchScreen.storyboard in Resources */,
 				04A71DD41F0635F600579614 /* Assets.xcassets in Resources */,
 				04A71E0E1F0638BD00579614 /* Me.storyboard in Resources */,
@@ -359,6 +384,7 @@
 				04A71DD21F0635F600579614 /* Main.storyboard in Resources */,
 				04A71E211F06427200579614 /* AutoLayoutView.xib in Resources */,
 				04A71E0C1F0638A400579614 /* AutoLayout.storyboard in Resources */,
+				33870B211F08F5E600762A42 /* AutoLayoutTableView.xib in Resources */,
 				04A71E1B1F0640D100579614 /* MeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,11 +460,13 @@
 			files = (
 				04A71E1A1F0640D100579614 /* MeViewController.m in Sources */,
 				04A71E091F06378400579614 /* AutoLayoutTableViewController.m in Sources */,
+				33870B201F08F5E600762A42 /* AutoLayoutTableView.m in Sources */,
 				04A71DCC1F0635F600579614 /* AppDelegate.m in Sources */,
 				04A71E201F06427200579614 /* AutoLayoutView.m in Sources */,
 				04A71E261F06492E00579614 /* AutoLayoutChangeViewController.m in Sources */,
 				04A71DC91F0635F600579614 /* main.m in Sources */,
 				04A71E0A1F06378400579614 /* MeTableViewController.m in Sources */,
+				33870B2A1F08FC4A00762A42 /* CustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,6 +618,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A8N753RPEC;
 				INFOPLIST_FILE = AutoLayoutDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aetos.AutoLayoutDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -603,6 +632,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A8N753RPEC;
 				INFOPLIST_FILE = AutoLayoutDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aetos.AutoLayoutDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -678,6 +708,7 @@
 				04A71DF31F0635F600579614 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04A71DF41F0635F600579614 /* Build configuration list for PBXNativeTarget "AutoLayoutDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -686,6 +717,7 @@
 				04A71DF61F0635F600579614 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04A71DF71F0635F600579614 /* Build configuration list for PBXNativeTarget "AutoLayoutDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -694,6 +726,7 @@
 				04A71DF91F0635F600579614 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

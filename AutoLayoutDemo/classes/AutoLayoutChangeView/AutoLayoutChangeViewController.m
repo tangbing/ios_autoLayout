@@ -44,7 +44,6 @@ static const CGFloat kMargain = 20;
 - (void)addView
 {
     ++self.flage;
-    NSLog(@"flag:%d",self.flage);
     
     self.bottomConstraint.constant = self.flage *(kMargain + kHeight) + kMargain;
     
@@ -58,7 +57,6 @@ static const CGFloat kMargain = 20;
         make.right.equalTo(self.bgView.mas_right).with.offset(-kMargain);
         make.height.mas_equalTo(kHeight);
     }];
-    
 }
 
 
