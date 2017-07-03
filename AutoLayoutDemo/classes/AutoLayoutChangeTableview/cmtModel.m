@@ -7,8 +7,11 @@
 //
 
 #import "cmtModel.h"
-
+#import <MJExtension.h>
 @implementation cmtModel
-
++ (NSDictionary *)replacedKeyFromPropertyName
+{
+    return @{@"ID" : @"id"};
+}
 
 @end

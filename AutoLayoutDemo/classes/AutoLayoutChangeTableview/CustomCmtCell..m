@@ -8,6 +8,8 @@
 
 #import "CustomCmtCell.h"
 #import "UserModel.h"
+#import "cmtModel.h"
+#import <UIImageView+WebCache.h>
 @implementation CustomCmtCell
 
 
@@ -20,20 +22,18 @@
 {
     _usrs = usrs;
     
-    [self.iconImage setImage:[UIImage imageNamed:@"test"]];
+    [self.iconImage sd_setImageWithURL:[NSURL URLWithString:usrs.profile_image]];
     self.nickLabel.text = usrs.name;
-    self.contentLabel.text = usrs.content;
-    self.timeLabel.text = @"2017-07-01 15:30";
+    self.contentLabel.text = usrs.text;
+    self.timeLabel.text = usrs.created_at;
     
+    // 最热评论
+    if (usrs.top_cmt) {
+        self.topCmtView.hidden = NO;
+        [self.topCmtLabel setText:usrs.top_cmt.content];
+    } else {
+        self.topCmtView.hidden = YES;
+    }
 }
-
-- (void)setFrame:(CGRect)frame
-{
-    frame.size.height = self.usrs.cellHeight;
-    [super setFrame:frame];
-}
-
-
-
 
 @end

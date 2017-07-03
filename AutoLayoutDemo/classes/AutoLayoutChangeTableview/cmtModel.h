@@ -9,6 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface cmtModel : NSObject
+/** id */
+@property (nonatomic, copy) NSString *ID;
 /** 评论的文字内容 */
 @property (nonatomic, copy) NSString *content;
+
+
 @end

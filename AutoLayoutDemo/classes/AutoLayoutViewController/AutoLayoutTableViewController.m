@@ -21,17 +21,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.arrays = @[@"自适应view",@"动态改变view",@"AutoLayout计算tableview的Cell的高度",@"计算文字高度自适应tableview的Cell的高度", @"动态改变 tableview"];
-    
+    self.arrays = @[@"自适应view",@"动态改变view",@"AutoLayout计算tableview的Cell的高度",@"计算文字高度自适应tableview的Cell的高度"];
 }
 
 #pragma mark - Table view data source
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 1;
-}
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
     return self.arrays.count;
 }
 
@@ -48,7 +44,6 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSLog(@"%@",self.arrays[indexPath.row]);
     if (indexPath.row == 0) {
         AutoLayoutView *autoLayout = [[AutoLayoutView alloc] initWithTitle:self.arrays[indexPath.row]];
         [self.navigationController pushViewController:autoLayout animated:YES];
