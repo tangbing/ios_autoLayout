@@ -19,11 +19,21 @@
 - (void)setUsrs:(UserModel *)usrs
 {
     _usrs = usrs;
+    
     [self.iconImage setImage:[UIImage imageNamed:@"test"]];
-    self.nickLabel.text = usrs.nick;
-    self.contentLabel.text = usrs.conetent;
+    self.nickLabel.text = usrs.name;
+    self.contentLabel.text = usrs.content;
     self.timeLabel.text = @"2017-07-01 15:30";
+    
 }
+
+- (void)setFrame:(CGRect)frame
+{
+    frame.size.height = self.usrs.cellHeight;
+    [super setFrame:frame];
+}
+
+
 
 
 @end

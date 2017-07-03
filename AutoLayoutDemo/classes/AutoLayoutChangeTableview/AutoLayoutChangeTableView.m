@@ -21,6 +21,14 @@
 
 static NSString * const commentID = @"commentID";
 
+- (instancetype)initWithTitle:(NSString *)title
+{
+    if (self = [super init]) {
+        self.hidesBottomBarWhenPushed = YES;
+        self.title = title;
+    }
+    return self;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -66,6 +74,15 @@ static NSString * const commentID = @"commentID";
     cell.usrs = self.datas[indexPath.row];
     
     return cell;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    // 取出帖子模型
+    UserModel *user = self.datas[indexPath.row];
+    
+    // 返回这个模型对应的cell高度
+    return user.cellHeight;
 }
 
 

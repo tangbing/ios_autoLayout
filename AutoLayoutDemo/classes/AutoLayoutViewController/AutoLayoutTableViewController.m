@@ -11,6 +11,7 @@
 #import "AutoLayoutView.h"
 #import "AutoLayoutChangeViewController.h"
 #import "AutoLayoutTableView.h"
+#import "AutoLayoutChangeTableView.h"
 @interface AutoLayoutTableViewController ()
 
 @property (nonatomic, strong)NSArray *arrays;
@@ -56,6 +57,9 @@
           [self.navigationController pushViewController:change animated:YES];
     } else if (indexPath.row == 2){
         AutoLayoutTableView * tableview = [[AutoLayoutTableView alloc] initWithTitle:self.arrays[indexPath.row]];
+        [self.navigationController pushViewController:tableview animated:YES];
+    } else {
+        AutoLayoutChangeTableView * tableview = [[AutoLayoutChangeTableView alloc] initWithTitle:self.arrays[indexPath.row]];
         [self.navigationController pushViewController:tableview animated:YES];
     }
 }

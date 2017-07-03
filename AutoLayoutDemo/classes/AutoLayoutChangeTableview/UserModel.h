@@ -11,9 +11,8 @@
 
 @interface UserModel : NSObject
 
-@property (nonatomic, copy)NSString* nick;
-@property (nonatomic, copy)NSString* conetent;
-@property (nonatomic, copy)NSString* comment;
+@property (nonatomic, copy)NSString* name;
+@property (nonatomic, copy)NSString* content;
 
 
 /** cell的高度 */

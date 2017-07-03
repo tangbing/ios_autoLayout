@@ -276,8 +276,8 @@
 		33A0E7181F093E29008A94E6 /* AutoLayoutChangeTableview */ = {
 			isa = PBXGroup;
 			children = (
-				3333F0DC1F095CF400F72C43 /* CustomCmtCell..m */,
 				3333F0DD1F095CF400F72C43 /* CustomCmtCell.h */,
+				3333F0DC1F095CF400F72C43 /* CustomCmtCell..m */,
 				3333F0DE1F095CF400F72C43 /* CustomCmtCell.xib */,
 				33A0E7191F093E52008A94E6 /* AutoLayoutChangeTableView.h */,
 				33A0E71A1F093E52008A94E6 /* AutoLayoutChangeTableView.m */,
@@ -454,7 +454,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		52F8617D16014487BB2C6582 /* [CP] Copy Pods Resources */ = {

@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface AutoLayoutChangeTableView : UITableViewController
-
+- (instancetype)initWithTitle:(NSString *)title;
 @end
