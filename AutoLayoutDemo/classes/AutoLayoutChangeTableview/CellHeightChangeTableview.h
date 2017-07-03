@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AutoLayoutChangeTableView : UITableViewController
+@interface CellHeightChangeTableview : UITableViewController
 - (instancetype)initWithTitle:(NSString *)title;
 @end

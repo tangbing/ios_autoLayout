@@ -8,16 +8,16 @@
 
 
 
-#import "AutoLayoutChangeTableView.h"
+#import "CellHeightChangeTableview.h"
 #import <MJExtension.h>
 #import "UserModel.h"
 #import "CustomCmtCell.h"
-@interface AutoLayoutChangeTableView ()
+@interface CellHeightChangeTableview ()
 @property (nonatomic, strong)NSArray *datas;
 
 @end
 
-@implementation AutoLayoutChangeTableView
+@implementation CellHeightChangeTableview
 
 static NSString * const commentID = @"commentID";
 

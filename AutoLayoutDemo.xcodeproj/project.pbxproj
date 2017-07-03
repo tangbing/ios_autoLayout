@@ -30,8 +30,8 @@
 		33870B211F08F5E600762A42 /* AutoLayoutTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33870B1F1F08F5E600762A42 /* AutoLayoutTableView.xib */; };
 		33870B2A1F08FC4A00762A42 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33870B281F08FC4A00762A42 /* CustomCell.m */; };
 		33870B2B1F08FC4A00762A42 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33870B291F08FC4A00762A42 /* CustomCell.xib */; };
-		33A0E71C1F093E52008A94E6 /* AutoLayoutChangeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A0E71A1F093E52008A94E6 /* AutoLayoutChangeTableView.m */; };
-		33A0E71D1F093E52008A94E6 /* AutoLayoutChangeTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33A0E71B1F093E52008A94E6 /* AutoLayoutChangeTableView.xib */; };
+		33A0E71C1F093E52008A94E6 /* CellHeightChangeTableview.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A0E71A1F093E52008A94E6 /* CellHeightChangeTableview.m */; };
+		33A0E71D1F093E52008A94E6 /* CellHeightChangeTableview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33A0E71B1F093E52008A94E6 /* CellHeightChangeTableview.xib */; };
 		33A0E7251F09441C008A94E6 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A0E7241F09441C008A94E6 /* UserModel.m */; };
 		33A0E7281F094FB9008A94E6 /* cmtModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A0E7271F094FB9008A94E6 /* cmtModel.m */; };
 		8452F9E2E812045DA0B72870 /* libPods-AutoLayoutDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F02C8F8F15E56DFE809A3469 /* libPods-AutoLayoutDemo.a */; };
@@ -93,9 +93,9 @@
 		33870B271F08FC4A00762A42 /* CustomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
 		33870B281F08FC4A00762A42 /* CustomCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 		33870B291F08FC4A00762A42 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
-		33A0E7191F093E52008A94E6 /* AutoLayoutChangeTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoLayoutChangeTableView.h; sourceTree = "<group>"; };
-		33A0E71A1F093E52008A94E6 /* AutoLayoutChangeTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutChangeTableView.m; sourceTree = "<group>"; };
-		33A0E71B1F093E52008A94E6 /* AutoLayoutChangeTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AutoLayoutChangeTableView.xib; sourceTree = "<group>"; };
+		33A0E7191F093E52008A94E6 /* CellHeightChangeTableview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellHeightChangeTableview.h; sourceTree = "<group>"; };
+		33A0E71A1F093E52008A94E6 /* CellHeightChangeTableview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellHeightChangeTableview.m; sourceTree = "<group>"; };
+		33A0E71B1F093E52008A94E6 /* CellHeightChangeTableview.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellHeightChangeTableview.xib; sourceTree = "<group>"; };
 		33A0E7231F09441C008A94E6 /* UserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
 		33A0E7241F09441C008A94E6 /* UserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
 		33A0E7261F094FB9008A94E6 /* cmtModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cmtModel.h; sourceTree = "<group>"; };
@@ -197,7 +197,7 @@
 		04A71DFA1F0636F100579614 /* classes */ = {
 			isa = PBXGroup;
 			children = (
-				33A0E7181F093E29008A94E6 /* AutoLayoutChangeTableview */,
+				33A0E7181F093E29008A94E6 /* CellHeightChangeTableview */,
 				33870B1C1F08F5A900762A42 /* AutoLayoutTableview */,
 				04A71E221F06491300579614 /* AutoLayoutChangeView */,
 				04A71E1C1F06427200579614 /* AutoLayoutView */,
@@ -273,20 +273,21 @@
 			path = AutoLayoutTableview;
 			sourceTree = "<group>";
 		};
-		33A0E7181F093E29008A94E6 /* AutoLayoutChangeTableview */ = {
+		33A0E7181F093E29008A94E6 /* CellHeightChangeTableview */ = {
 			isa = PBXGroup;
 			children = (
 				3333F0DD1F095CF400F72C43 /* CustomCmtCell.h */,
 				3333F0DC1F095CF400F72C43 /* CustomCmtCell..m */,
 				3333F0DE1F095CF400F72C43 /* CustomCmtCell.xib */,
-				33A0E7191F093E52008A94E6 /* AutoLayoutChangeTableView.h */,
-				33A0E71A1F093E52008A94E6 /* AutoLayoutChangeTableView.m */,
-				33A0E71B1F093E52008A94E6 /* AutoLayoutChangeTableView.xib */,
+				33A0E7191F093E52008A94E6 /* CellHeightChangeTableview.h */,
+				33A0E71A1F093E52008A94E6 /* CellHeightChangeTableview.m */,
+				33A0E71B1F093E52008A94E6 /* CellHeightChangeTableview.xib */,
 				33A0E7231F09441C008A94E6 /* UserModel.h */,
 				33A0E7241F09441C008A94E6 /* UserModel.m */,
 				33A0E7261F094FB9008A94E6 /* cmtModel.h */,
 				33A0E7271F094FB9008A94E6 /* cmtModel.m */,
 			);
+			name = CellHeightChangeTableview;
 			path = AutoLayoutChangeTableview;
 			sourceTree = "<group>";
 		};
@@ -417,7 +418,7 @@
 				04A71E271F06492E00579614 /* AutoLayoutChangeViewController.xib in Resources */,
 				3333F0E01F095CF400F72C43 /* CustomCmtCell.xib in Resources */,
 				04A71DD21F0635F600579614 /* Main.storyboard in Resources */,
-				33A0E71D1F093E52008A94E6 /* AutoLayoutChangeTableView.xib in Resources */,
+				33A0E71D1F093E52008A94E6 /* CellHeightChangeTableview.xib in Resources */,
 				04A71E211F06427200579614 /* AutoLayoutView.xib in Resources */,
 				04A71E0C1F0638A400579614 /* AutoLayout.storyboard in Resources */,
 				33870B211F08F5E600762A42 /* AutoLayoutTableView.xib in Resources */,
@@ -494,7 +495,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33A0E71C1F093E52008A94E6 /* AutoLayoutChangeTableView.m in Sources */,
+				33A0E71C1F093E52008A94E6 /* CellHeightChangeTableview.m in Sources */,
 				04A71E1A1F0640D100579614 /* MeViewController.m in Sources */,
 				33A0E7251F09441C008A94E6 /* UserModel.m in Sources */,
 				04A71E091F06378400579614 /* AutoLayoutTableViewController.m in Sources */,

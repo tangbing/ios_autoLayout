@@ -11,7 +11,7 @@
 #import "AutoLayoutView.h"
 #import "AutoLayoutChangeViewController.h"
 #import "AutoLayoutTableView.h"
-#import "AutoLayoutChangeTableView.h"
+#import "CellHeightChangeTableview.h"
 @interface AutoLayoutTableViewController ()
 
 @property (nonatomic, strong)NSArray *arrays;
@@ -21,7 +21,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.arrays = @[@"自适应view",@"动态改变view",@"自适应 tableview", @"动态改变 tableview"];
+    self.arrays = @[@"自适应view",@"动态改变view",@"AutoLayout计算tableview的Cell的高度",@"计算文字高度自适应tableview的Cell的高度", @"动态改变 tableview"];
     
 }
 
@@ -58,9 +58,11 @@
     } else if (indexPath.row == 2){
         AutoLayoutTableView * tableview = [[AutoLayoutTableView alloc] initWithTitle:self.arrays[indexPath.row]];
         [self.navigationController pushViewController:tableview animated:YES];
-    } else {
-        AutoLayoutChangeTableView * tableview = [[AutoLayoutChangeTableView alloc] initWithTitle:self.arrays[indexPath.row]];
+    } else if(indexPath.row == 3) {
+        CellHeightChangeTableview * tableview = [[CellHeightChangeTableview alloc] initWithTitle:self.arrays[indexPath.row]];
         [self.navigationController pushViewController:tableview animated:YES];
+    } else {
+        
     }
 }
 
