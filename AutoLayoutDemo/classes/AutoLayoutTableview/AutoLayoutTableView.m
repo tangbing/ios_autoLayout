@@ -67,13 +67,13 @@ static NSString * const CellIdentifier = @"CellIdentifier";
     return self.datas.count;
 }
 
-
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     CustomCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     [cell.iconImage setImage:[UIImage imageNamed:@"test"]];
     cell.nickLabel.text = self.datas[indexPath.row][@"name"];
     cell.contentLabel.text =  self.datas[indexPath.row][@"content"];
     cell.timeLabel.text = @"2017-07-01 15:30";
+    [cell.contentImageView setImage:[UIImage imageNamed:@"test"]];
     return cell;
 }
 

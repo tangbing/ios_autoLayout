@@ -8,10 +8,12 @@
 //
 
 #import "AutoLayoutTableViewController.h"
-#import "AutoLayoutView.h"
 #import "AutoLayoutChangeViewController.h"
-#import "AutoLayoutTableView.h"
 #import "CellHeightChangeTableview.h"
+#import "AutoLayoutTableView.h"
+#import "TestDemoViewController.h"
+#import "AutoLayoutView.h"
+
 @interface AutoLayoutTableViewController ()
 
 @property (nonatomic, strong)NSArray *arrays;
@@ -21,7 +23,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.arrays = @[@"自适应view",@"动态改变view",@"AutoLayout计算tableview的Cell的高度",@"计算文字高度自适应tableview的Cell的高度"];
+    [self setupUIBarButtonItem];
+    
+    self.arrays = @[@"自适应view",@"动态改变view",@"AutoLayout计算tableview的Cell的高度",@"计算文字高度自适应tableview的Cell的高度",@"testDemo"];
+    
+}
+- (void)setupUIBarButtonItem
+{
+    self.navigationItem.titleView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"MainTitle"]];
 }
 
 #pragma mark - Table view data source
@@ -57,7 +66,8 @@
         CellHeightChangeTableview * tableview = [[CellHeightChangeTableview alloc] initWithTitle:self.arrays[indexPath.row]];
         [self.navigationController pushViewController:tableview animated:YES];
     } else {
-        
+        TestDemoViewController *demo = [[TestDemoViewController alloc] init];
+        [self.navigationController pushViewController:demo animated:YES];
     }
 }
 

@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--我的-->
+        <!--Me Table View Controller-->
         <scene sceneID="GKQ-yc-XTf">
             <objects>
                 <tableViewController id="SHq-Qk-VMG" customClass="MeTableViewController" sceneMemberID="viewController">
@@ -32,7 +32,7 @@
                             <outlet property="delegate" destination="SHq-Qk-VMG" id="UAT-Fk-Uk9"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="我的" id="nk1-cG-vcL"/>
+                    <navigationItem key="navigationItem" id="nk1-cG-vcL"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cN3-xe-SVj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -41,10 +41,10 @@
         <!--我的-->
         <scene sceneID="CfS-Rl-REH">
             <objects>
-                <navigationController id="Qac-G5-mqh" sceneMemberID="viewController">
+                <navigationController id="Qac-G5-mqh" customClass="BaseNavViewController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="我的" id="5NR-L3-fW0"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tUF-Kq-zPd">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="tUF-Kq-zPd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

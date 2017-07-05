@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--约束-->
+        <!--Auto Layout Table View Controller-->
         <scene sceneID="MEN-Xf-v8C">
             <objects>
                 <tableViewController id="x2c-nI-61o" customClass="AutoLayoutTableViewController" sceneMemberID="viewController">
@@ -32,7 +32,7 @@
                             <outlet property="delegate" destination="x2c-nI-61o" id="3eR-9r-bkg"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="约束" id="d1C-TL-pyz"/>
+                    <navigationItem key="navigationItem" id="d1C-TL-pyz"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="utj-nB-qfK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -41,7 +41,7 @@
         <!--约束-->
         <scene sceneID="xLF-ZY-9FS">
             <objects>
-                <navigationController id="xnu-BH-BB0" sceneMemberID="viewController">
+                <navigationController id="xnu-BH-BB0" customClass="BaseNavViewController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="约束" id="Vof-T8-Zmw"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="klZ-bv-jhH">

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0494D1D31F0B2C040053FB71 /* TestDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494D1D11F0B2C040053FB71 /* TestDemoViewController.m */; };
+		0494D1D71F0B302C0053FB71 /* BaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494D1D61F0B302C0053FB71 /* BaseNavViewController.m */; };
+		0494D1DA1F0B306B0053FB71 /* UIBarButtonItem+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494D1D91F0B306B0053FB71 /* UIBarButtonItem+XMGExtension.m */; };
+		0494D2841F0B82B00053FB71 /* UIView+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494D2831F0B82B00053FB71 /* UIView+XMGExtension.m */; };
+		0494D2881F0B865A0053FB71 /* TestDemoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494D2861F0B865A0053FB71 /* TestDemoTableViewCell.m */; };
+		0494D2891F0B865A0053FB71 /* TestDemoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0494D2871F0B865A0053FB71 /* TestDemoTableViewCell.xib */; };
 		04A71DC91F0635F600579614 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A71DC81F0635F600579614 /* main.m */; };
 		04A71DCC1F0635F600579614 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A71DCB1F0635F600579614 /* AppDelegate.m */; };
 		04A71DD21F0635F600579614 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A71DD01F0635F600579614 /* Main.storyboard */; };
@@ -57,6 +63,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0494D1D01F0B2C040053FB71 /* TestDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestDemoViewController.h; sourceTree = "<group>"; };
+		0494D1D11F0B2C040053FB71 /* TestDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDemoViewController.m; sourceTree = "<group>"; };
+		0494D1D51F0B302C0053FB71 /* BaseNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavViewController.h; sourceTree = "<group>"; };
+		0494D1D61F0B302C0053FB71 /* BaseNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavViewController.m; sourceTree = "<group>"; };
+		0494D1D81F0B306B0053FB71 /* UIBarButtonItem+XMGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+XMGExtension.h"; sourceTree = "<group>"; };
+		0494D1D91F0B306B0053FB71 /* UIBarButtonItem+XMGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+XMGExtension.m"; sourceTree = "<group>"; };
+		0494D2821F0B82B00053FB71 /* UIView+XMGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XMGExtension.h"; sourceTree = "<group>"; };
+		0494D2831F0B82B00053FB71 /* UIView+XMGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMGExtension.m"; sourceTree = "<group>"; };
+		0494D2851F0B865A0053FB71 /* TestDemoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestDemoTableViewCell.h; sourceTree = "<group>"; };
+		0494D2861F0B865A0053FB71 /* TestDemoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDemoTableViewCell.m; sourceTree = "<group>"; };
+		0494D2871F0B865A0053FB71 /* TestDemoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestDemoTableViewCell.xib; sourceTree = "<group>"; };
 		04A71DC41F0635F600579614 /* AutoLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A71DC81F0635F600579614 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04A71DCA1F0635F600579614 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -87,7 +104,7 @@
 		04A71E241F06492E00579614 /* AutoLayoutChangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutChangeViewController.m; sourceTree = "<group>"; };
 		04A71E251F06492E00579614 /* AutoLayoutChangeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutoLayoutChangeViewController.xib; sourceTree = "<group>"; };
 		04A71E281F09F3E200579614 /* user.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = user.plist; sourceTree = "<group>"; };
-		04A71E2A1F0A1DB100579614 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		04A71E2A1F0A1DB100579614 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Foundation+Log.m"; path = "classes/MeViewController/Foundation+Log.m"; sourceTree = "<group>"; };
 		3333F0DC1F095CF400F72C43 /* CustomCmtCell..m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCmtCell..m; sourceTree = "<group>"; };
 		3333F0DD1F095CF400F72C43 /* CustomCmtCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCmtCell.h; sourceTree = "<group>"; };
 		3333F0DE1F095CF400F72C43 /* CustomCmtCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCmtCell.xib; sourceTree = "<group>"; };
@@ -162,6 +179,11 @@
 			children = (
 				04A71DFA1F0636F100579614 /* classes */,
 				04A71DCA1F0635F600579614 /* AppDelegate.h */,
+				0494D2821F0B82B00053FB71 /* UIView+XMGExtension.h */,
+				0494D2831F0B82B00053FB71 /* UIView+XMGExtension.m */,
+				04A71E2A1F0A1DB100579614 /* Foundation+Log.m */,
+				0494D1D81F0B306B0053FB71 /* UIBarButtonItem+XMGExtension.h */,
+				0494D1D91F0B306B0053FB71 /* UIBarButtonItem+XMGExtension.m */,
 				04A71E281F09F3E200579614 /* user.plist */,
 				04A71DCB1F0635F600579614 /* AppDelegate.m */,
 				04A71DD01F0635F600579614 /* Main.storyboard */,
@@ -208,6 +230,13 @@
 				04A71E1C1F06427200579614 /* AutoLayoutView */,
 				04A71E031F06378400579614 /* AutoLayoutViewController */,
 				04A71E061F06378400579614 /* MeViewController */,
+				0494D1D01F0B2C040053FB71 /* TestDemoViewController.h */,
+				0494D1D11F0B2C040053FB71 /* TestDemoViewController.m */,
+				0494D1D51F0B302C0053FB71 /* BaseNavViewController.h */,
+				0494D1D61F0B302C0053FB71 /* BaseNavViewController.m */,
+				0494D2851F0B865A0053FB71 /* TestDemoTableViewCell.h */,
+				0494D2861F0B865A0053FB71 /* TestDemoTableViewCell.m */,
+				0494D2871F0B865A0053FB71 /* TestDemoTableViewCell.xib */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -225,7 +254,6 @@
 		04A71E061F06378400579614 /* MeViewController */ = {
 			isa = PBXGroup;
 			children = (
-				04A71E2A1F0A1DB100579614 /* Foundation+Log.m */,
 				04A71E0D1F0638BD00579614 /* Me.storyboard */,
 				04A71E071F06378400579614 /* MeTableViewController.h */,
 				04A71E081F06378400579614 /* MeTableViewController.m */,
@@ -417,6 +445,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0494D2891F0B865A0053FB71 /* TestDemoTableViewCell.xib in Resources */,
 				33870B2B1F08FC4A00762A42 /* CustomCell.xib in Resources */,
 				04A71DD71F0635F600579614 /* LaunchScreen.storyboard in Resources */,
 				04A71DD41F0635F600579614 /* Assets.xcassets in Resources */,
@@ -503,19 +532,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				33A0E71C1F093E52008A94E6 /* CellHeightChangeTableview.m in Sources */,
+				0494D1D71F0B302C0053FB71 /* BaseNavViewController.m in Sources */,
 				04A71E2B1F0A1DB100579614 /* Foundation+Log.m in Sources */,
 				04A71E1A1F0640D100579614 /* MeViewController.m in Sources */,
 				33A0E7251F09441C008A94E6 /* UserModel.m in Sources */,
 				04A71E091F06378400579614 /* AutoLayoutTableViewController.m in Sources */,
+				0494D1DA1F0B306B0053FB71 /* UIBarButtonItem+XMGExtension.m in Sources */,
+				0494D2841F0B82B00053FB71 /* UIView+XMGExtension.m in Sources */,
 				33A0E7281F094FB9008A94E6 /* cmtModel.m in Sources */,
 				3333F0DF1F095CF400F72C43 /* CustomCmtCell..m in Sources */,
 				33870B201F08F5E600762A42 /* AutoLayoutTableView.m in Sources */,
+				0494D1D31F0B2C040053FB71 /* TestDemoViewController.m in Sources */,
 				04A71DCC1F0635F600579614 /* AppDelegate.m in Sources */,
 				04A71E201F06427200579614 /* AutoLayoutView.m in Sources */,
 				04A71E261F06492E00579614 /* AutoLayoutChangeViewController.m in Sources */,
 				04A71DC91F0635F600579614 /* main.m in Sources */,
 				04A71E0A1F06378400579614 /* MeTableViewController.m in Sources */,
 				33870B2A1F08FC4A00762A42 /* CustomCell.m in Sources */,
+				0494D2881F0B865A0053FB71 /* TestDemoTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
